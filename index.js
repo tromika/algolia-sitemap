@@ -2,7 +2,7 @@ const algoliasearch = require('algoliasearch');
 const { createSitemapindex, createSitemap } = require('./sitemap');
 const { saveSiteMap } = require('./saveFiles');
 
-const CHUNK_SIZE = 5000;
+const CHUNK_SIZE = 3000;
 
 function init({
   algoliaConfig,
